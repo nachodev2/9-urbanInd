@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "urbanist";
+    src: url(../fonts/Urbanist/Urbanist-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nombre-Logo{
+    font-family: "urbanist", sans-serif;
+}
+
+.placeholder-color::placeholder{
+    color: rgb(187, 187, 187);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.logo-Urban-Nav{
+    max-width: 60px;
+}
+
+.logo-Urban-Foot{
+    max-width: 120px;
+    
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .search-and-cart-icons {
+    display: flex;
+    align-items: center; 
+    margin-right: 20px; 
+    order: 2; 
+  }
+  
+  .search-and-cart-icons a {
+    font-size: 1.1rem; 
+  }
+  
+  .navbar-toggler {
+    margin-left: 10px; 
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-content {
+      justify-content: flex-start; 
+    }
+  
+    .navbar-toggler {
+      margin-left: 0;
+    }
+  
+    .search-and-cart-icons {
+      order: -1; 
+      margin-left: 10px;  
+    }
+
+    .search-and-cart-icons a {
+        font-size: 1.5rem; 
+      }
+  }
+   
+  @media (min-width: 993px) {
+    .navbar-content {
+      justify-content: flex-end; 
+    }
+  
+    .search-and-cart-icons {
+      order: 2;
+      margin-right: 20px;
+    }
+  }
+  
