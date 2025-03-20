@@ -71,7 +71,7 @@ main{
         font-size: 1.5rem; 
       }
   }
-   
+
   @media (min-width: 993px) {
     .navbar-content {
       justify-content: flex-end; 
@@ -82,4 +82,28 @@ main{
       margin-right: 20px;
     }
   }
-  
+
+
+
+
+.carousel-item video {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  /* Ajustar la altura del video y las imágenes en pantallas pequeñas */
+  .carousel-item video,
+  .carousel-item img {
+    width: 100%; /* Hacer que ocupe todo el ancho del contenedor */
+    height: 400px; /* Mantener la relación de aspecto */
+    object-fit: cover;
+  }
+}
