@@ -171,3 +171,26 @@ main{
 .product-img-third {
   max-width: 70px;
 }
+
+.btn-explora-mas{
+  border-radius: 0px;
+}
+
+.btn-explora-mas {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-explora-mas:hover {
+  transform: scale(1.05);
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+
+.card-outfit {
+  width: 400px;
+  position: relative;
+  height: auto;
+}
+
