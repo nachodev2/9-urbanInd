@@ -225,3 +225,8 @@ main{
   cursor: pointer;
   text-align: center;
 }
+
+
+.service-icon {
+  font-size: 7vh;
+}
