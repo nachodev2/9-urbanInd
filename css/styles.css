@@ -230,3 +230,9 @@ main{
 .service-icon {
   font-size: 7vh;
 }
+
+
+.img-logo-reseña {
+  border-radius: 50%;
+  max-width: 20vh;
+}
