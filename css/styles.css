@@ -130,3 +130,19 @@ main{
   border-radius: 0;
 }
 
+.cards-indumentaria {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards-imagen-indumentaria{
+  transition: transform 0.3s ease;
+  border: rgb(189, 189, 189) 0.5px solid;
+}
+
+.cards-indumentaria:hover{
+  transform: scale(0.95);
+}
+
+.cards-indumentaria:hover .cards-imagen-indumentaria{
+  transform: scale(1.1); 
+}
