@@ -1,33 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tomas Ruiz, Jose Baza, Alessandra Borges">
-    <meta name="description" content="Urban Ind es tu tienda online de ropa urbana con las últimas tendencias en estilo streetwear. Encuentra remras, buzos, pantalones y accesorios que definen tu actitud en cada momento. ¡Hacé que tu estilo hable por vos!">
-    <meta name="keywords" content="ropa urbana, streetwear, moda urbana, camisetas streetwear, sudaderas urbanas, pantalones streetwear, accesorios urbanos, ropa joven, ropa moderna, estilo urbano, ropa de calle, fashion urbano, outfits urbanos, tienda de ropa urbana">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tomas Ruiz, Jose Baza, Alessandra Borges" />
+    <meta name="description" content="Urban Ind es tu tienda online de ropa
+    urbana con las últimas tendencias en estilo streetwear. Encuentra remras,
+    buzos, pantalones y accesorios que definen tu actitud en cada momento. ¡Hacé
+    que tu estilo hable por vos! />
+    <meta
+      name="keywords"
+      content="ropa urbana, streetwear, moda urbana, camisetas streetwear, sudaderas urbanas, pantalones streetwear, accesorios urbanos, ropa joven, ropa moderna, estilo urbano, ropa de calle, fashion urbano, outfits urbanos, tienda de ropa urbana"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/logo-vectorizado-urban-ind-blanco.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Inicio</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Header realizado por Alessandra Borges -->
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand nombre-Logo" href="./index.html"><img src="./img/logo-vectorizado-urban-ind.svg" class="logo-Urban-Nav img-fluid" alt="Logo">Urban Ind</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand nombre-Logo" href="./index.html"
+            ><img
+              src="./img/logo-vectorizado-urban-ind.svg"
+              class="img-fluid logo-Urban-Nav"
+              alt="Logo"
+            />Urban Ind</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Productos</a>
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="dropdown nav-item">
+                <a
+                  class="dropdown-toggle nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos</a
+                >
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./pages/productos.html">Buzos</a></li>
-                  <li><a class="dropdown-item" href="./pages/productos.html">Remeras</a></li>
-                  <li><a class="dropdown-item" href="./pages/productos.html">Accesorios</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/productos.html"
+                      >Buzos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/productos.html"
+                      >Remeras</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/productos.html"
+                      >Accesorios</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -44,42 +97,714 @@
               </li>
             </ul>
           </div>
-          <div class="search-and-cart-icons ms-2">
-            <a href="./pages/error404.html" class="text-secondary"><i class="bi bi-search"></i></a>
-            <a href="./pages/carroCompras.html" class="text-secondary ms-3"><i class="bi bi-bag"></i></a>
+          <div class="ms-2 search-and-cart-icons">
+            <a href="./pages/error404.html" class="text-secondary"
+              ><i class="bi bi-search"></i
+            ></a>
+            <a href="./pages/carroCompras.html" class="text-secondary ms-3"
+              ><i class="bi bi-bag"></i
+            ></a>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer class="bg-dark text-light py-4 mt-5">
+    <main>
+      <!-- Botón de WhatsApp -->
+      <a href="./pages/error404.html" target="_blank" class="whatsapp-float">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <!-- Carousel de Imagenes/Video Finalizado -->
+      <section>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel carousel-fade mb-5 slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primer item (video) -->
+            <div class="active carousel-item" data-bs-interval="false">
+              <video class="d-block w-100" autoplay loop muted playsinline>
+                <source
+                  src="./img/Carousel Index/Primer Item de Carousel Video.mp4"
+                  type="video/mp4"
+                />
+                Tu navegador no soporta el formato de video.
+              </video>
+            </div>
+            <!-- Segundo item (imagen) -->
+            <div class="carousel-item">
+              <img
+                src="./img/Carousel Index/Segundo Item de Carousel Imagen.png"
+                class="d-block w-100"
+                alt="Imagen Publicitaria de Indumentaria"
+              />
+            </div>
+            <!-- Tercer item (imagen) -->
+            <div class="carousel-item">
+              <img
+                src="./img/Carousel Index/Tercer Item de Carousel Imagen.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <!-- Controles del carousel -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <h1 class="text-center fs-2 my-3 titulos-cards-index">
+        PREPARA TU BUENA VIBRA Y TUS MEJORES OUTFITS
+      </h1>
+      <!-- Section de Exhibicion Outfits -->
+      <section class="container">
+        <!-- Boton Explora Looks -->
+        <button
+          type="button"
+          class="btn btn-explora-mas btn-white border border-black w-40 mb-3 ms-2"
+        >
+          DESCUBRE LOOKS <i class="arrow-icon bi bi-arrow-right"></i>
+        </button>
+        <section class="container mb-5">
+          <article class="row align-items-start">
+            <!-- Card Outfit 1 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <a href="#" class="card-link w-100">
+                <div class="card card-outfit text-bg-dark w-100">
+                  <img
+                    src="./img/Descubre Looks/card-uno-outfit.jpg"
+                    class="card-img"
+                    alt="Imagen Exhibicion Outfit Uno"
+                  />
+                  <div class="card-img-overlay d-flex align-items-end">
+                    <span class="btn-comprar bg-white text-dark p-1 w-60"
+                      >Combinaciones de colores</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- Card Outfit 2 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <a href="#" class="card-link w-100">
+                <div class="card card-outfit text-bg-dark w-100">
+                  <img
+                    src="./img/Descubre Looks/card-dos-outfit.jpg"
+                    class="card-img"
+                    alt="Imagen Exhibicion Outfit Dos"
+                  />
+                  <div class="card-img-overlay d-flex align-items-end">
+                    <span class="btn-comprar bg-white text-dark p-1 w-60"
+                      >Legado deportivo icónico</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- Card Outfit 3 (centrada en md y alineada correctamente en lg) -->
+            <div
+              class="col-12 col-md-6 col-lg-4 d-flex order-md-last mx-md-auto mt-md-4 mt-lg-0"
+            >
+              <a href="#" class="card-link w-100">
+                <div class="card card-outfit text-bg-dark w-100">
+                  <img
+                    src="./img/Descubre Looks/card-tres-outfit.jpg"
+                    class="card-img"
+                    alt="Imagen Exhibicion Outfit Tres"
+                  />
+                  <div class="card-img-overlay d-flex align-items-end">
+                    <span class="btn-comprar bg-white text-dark p-1"
+                      >Destaca en la multitud</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+        </section>
+      </section>
+      <!-- Section de Cards Promocionales -->
+      <section class="container-fluid mb-5">
+        <div class="row gx-1 gy-1">
+          <!-- Primera Card -->
+          <div class="col-12 col-lg-3">
+            <a href="./pages/error404.html" class="text-decoration-none">
+              <div
+                class="d-flex flex-column card card-hover-1 bg-black h-100 text-white"
+              >
+                <div class="card-body">
+                  <h4 class="card-title titulos-cards-index">
+                    OFERTA DE LA SEMANA
+                    <span class="span-cards"> HASTA 30% OFF</span>
+                  </h4>
+                  <p class="card-text lead">
+                    Obtené 20% EXTRA al comprar 2 artículos o más del catálogo
+                    seleccionado.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Cards de productos -->
+          <div class="col-12 col-lg-3">
+            <div
+              class="d-flex flex-column card card-hover-2 bg-dark-subtle h-100 text-white"
+            >
+              <div class="d-flex flex-column card-body justify-content-between">
+                <div
+                  class="d-flex flex-grow-1 align-items-center justify-content-end"
+                >
+                  <img
+                    src="./img/Cards Promocionales/Men Hoodie Mockup, Back View.png"
+                    alt="imagen hoodie exhibicion"
+                    class="img-fluid product-img"
+                  />
+                </div>
+                <div class="mt-2">
+                  <a
+                    href="#"
+                    class="card-link bg-white text-danger px-2 py-1"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    ><i class="bi bi-percent"></i
+                  ></a>
+                  <button
+                    class="card-link bg-white text-black text-decoration-none px-2 py-1 border-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                  >
+                    VER INDUMENTARIA
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div
+              class="d-flex flex-column card card-hover-2 bg-dark-subtle h-100 text-white"
+            >
+              <div class="d-flex flex-column card-body justify-content-between">
+                <div class="d-flex justify-content-end">
+                  <img
+                    src="./img/Cards Promocionales/gorro streetwear.png"
+                    alt="imagen gorro streetwear exhibicion"
+                    class="img-fluid product-img-second"
+                  />
+                </div>
+                <div class="mt-2">
+                  <a
+                    href="#"
+                    class="card-link bg-white text-danger px-2 py-1"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModalSecond"
+                    ><i class="bi bi-percent"></i
+                  ></a>
+                  <button
+                    class="card-link bg-white text-black text-decoration-none px-2 py-1 border-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModalSecond"
+                  >
+                    VER ACCESORIOS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div
+              class="d-flex flex-column card card-hover-2 bg-dark-subtle h-100 text-white"
+            >
+              <div class="d-flex flex-column card-body justify-content-between">
+                <div class="d-flex justify-content-end">
+                  <img
+                    src="./img/Cards Promocionales/img card 1 sneaker.png"
+                    alt="imagen sneaker exhibicion"
+                    class="img-fluid product-img-third"
+                  />
+                </div>
+                <div class="mt-2">
+                  <a
+                    href="#"
+                    class="card-link bg-white text-danger px-2 py-1"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModalThird"
+                    ><i class="bi bi-percent"></i
+                  ></a>
+                  <button
+                    class="card-link bg-white text-black text-decoration-none px-2 py-1 border-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModalThird"
+                  >
+                    VER SNEAKERS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal de Producto 1 -->
+      <div
+        class="modal fade"
+        id="productModal"
+        tabindex="-1"
+        aria-labelledby="productModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="productModalLabel">
+                Nombre del Producto
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <img
+                src="./img/lobo hoodie black.jpg"
+                alt="Producto"
+                class="img-fluid mb-3"
+              />
+              <p>
+                Eleva tu look con este buzo de algodón con capucha, diseñado
+                para quienes buscan comodidad y un toque de estilo urbano.
+                Perfecto para un día relajado en la ciudad o para un look casual
+                pero con mucha actitud. Su material suave y transpirable te
+                brindará confort todo el día, mientras que su capucha y detalles
+                únicos le dan ese toque distintivo que caracteriza al estilo
+                urban.
+              </p>
+              <h3 class="mt-3">Tabla de Talles y Materiales</h3>
+              <table class="table table-bordered mt-2">
+                <thead>
+                  <tr>
+                    <th>Talle</th>
+                    <th>Medida (cm)</th>
+                    <th>Material</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>S</td>
+                    <td>90</td>
+                    <td>Algodón</td>
+                  </tr>
+                  <tr>
+                    <td>M</td>
+                    <td>95</td>
+                    <td>Algodón</td>
+                  </tr>
+                  <tr>
+                    <td>L</td>
+                    <td>100</td>
+                    <td>Algodón</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal de Producto 2 -->
+      <div
+        class="modal fade"
+        id="productModalSecond"
+        tabindex="-1"
+        aria-labelledby="productModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="productModalLabel">
+                Nombre del Producto
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <img
+                src="./img/gorra negra.jpg"
+                alt="Producto"
+                class="img-fluid mb-3"
+              />
+              <p>
+                Esta gorra de estilo streetwear combina comodidad y un diseño
+                moderno. Con una estructura ajustable y materiales de alta
+                calidad, es perfecta para el día a día o para complementar tu
+                look urbano. Su visor te protege del sol, mientras que su diseño
+                versátil hace que se pueda combinar fácilmente con cualquier
+                atuendo. Ideal para aquellos que buscan estilo y funcionalidad
+                en un solo accesorio.
+              </p>
+              <h3 class="mt-3">Tabla de Talles y Materiales</h3>
+              <table class="table table-bordered mt-2">
+                <thead>
+                  <tr>
+                    <th>Talle</th>
+                    <th>Medida (cm)</th>
+                    <th>Material</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal de Producto 3 -->
+      <div
+        class="modal fade"
+        id="productModalThird"
+        tabindex="-1"
+        aria-labelledby="productModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="productModalLabel">
+                Nombre del Producto
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <img
+                src="./img/Nike Air Force 1 Mockup, Floating.png"
+                alt="Producto"
+                class="img-fluid mb-3"
+              />
+              <p>
+                Las Nike Air Force 1 son unas zapatillas clásicas y versátiles,
+                diseñadas con un material de cuero de alta calidad para
+                garantizar durabilidad y estilo. Con la tecnología de
+                amortiguación Nike Air, ofrecen comodidad durante todo el día.
+                Su diseño limpio y atemporal las hace perfectas para cualquier
+                look, desde casual hasta urbano. Un imprescindible que nunca
+                pasa de moda.
+              </p>
+              <h3 class="mt-3">Tabla de Talles y Materiales</h3>
+              <table class="table table-bordered mt-2">
+                <thead>
+                  <tr>
+                    <th>Talle</th>
+                    <th>Medida (cm)</th>
+                    <th>Material</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>39</td>
+                    <td>90</td>
+                    <td>Cuero</td>
+                  </tr>
+                  <tr>
+                    <td>40</td>
+                    <td>95</td>
+                    <td>Cuero</td>
+                  </tr>
+                  <tr>
+                    <td>41</td>
+                    <td>100</td>
+                    <td>Cuero</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section de publicidad -->
+      <section>
+        <section class="container mt-5 mb-5">
+          <div class="row justify-content-center">
+            <!-- Card Publicidad 1 -->
+            <div class="col-12 col-md-6 col-lg-4 d-md-block d-none mx-0">
+              <div class="card">
+                <img
+                  src="./img/Publicidad/Publicidad-left.png"
+                  class="card-img-top"
+                  alt="Imagen 1"
+                />
+              </div>
+            </div>
+            <!-- Card Publicidad 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                <img
+                  src="./img/Publicidad/Publicidad-mid.jpg"
+                  class="card-img-top"
+                  alt="Imagen 2"
+                />
+              </div>
+            </div>
+            <!-- Card Publicidad 3 -->
+            <div class="col-12 col-md-6 col-lg-4 d-lg-block d-none">
+              <div class="card">
+                <img
+                  src="./img/Publicidad/Publicidad-right.jpg"
+                  class="card-img-top"
+                  alt="Imagen 3"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- Section de Info Servicios -->
+      <section>
+        <article>
+          <h3 class="lead fs-1 text-center text-black">
+            Servicios que marcan la diferencia
+          </h3>
+        </article>
+        <article class="container">
+          <div class="row d-flex justify-content-between align-items-stretch">
+            <div class="col-12 col-md-3 text-center d-flex flex-column">
+              <i class="bi bi-truck service-icon"></i>
+              <h3 class="lead">Envios express</h3>
+              <p>
+                En Caba y Gba hacemos envios express pagando en la puerta de tu
+                casa
+              </p>
+            </div>
+            <div class="col-12 col-md-3 text-center d-flex flex-column">
+              <i class="bi bi-arrow-clockwise service-icon"></i>
+              <h3 class="lead">Cambios y devoluciones</h3>
+              <p>Tenes 30 días para devolver o cambiar tus prendas</p>
+            </div>
+            <div class="col-12 col-md-3 text-center d-flex flex-column">
+              <i class="bi bi-chat service-icon"></i>
+              <h3 class="lead">Soporte online</h3>
+              <p>Soporte especializado de 8hs a 00hs de Lunes a Lunes</p>
+            </div>
+            <div class="col-12 col-md-3 text-center d-flex flex-column">
+              <i class="bi bi-cash-coin service-icon"></i>
+              <h3 class="lead">Flexibilidad de pago</h3>
+              <p>Tenemos amplia variedad de metodos de pago</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- Section de Reseñas -->
+      <section class="container mt-5 shadow">
+        <h2 class="text-center text-black mb-5 pt-5 titulos-cards-index">
+          RESEÑAS
+        </h2>
+        <div class="row justify-content-center">
+          <!-- Card Reseña de Usuario 1 -->
+          <article
+            class="col-12 col-md-6 col-lg-4 d-flex justify-content-center"
+          >
+            <div class="card text-bg-light mb-3 text-center">
+              <div class="card-header">
+                <img
+                  src="./img/Reseñas/ysy a-reseña.png"
+                  alt="Logo Usuario 1"
+                  class="rounded-circle img-logo-reseña"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ysy A</h5>
+                <p class="card-text lead">
+                  ”Como amante de la música y la cultura urbana, siempre busco
+                  algo que sea genuino y auténtico. Esta página lo tiene todo.
+                  No es solo sobre ropa, es sobre actitud y estilo de vida. Las
+                  prendas tienen un corte moderno y único. La calidad es
+                  increíble ¡Totalmente recomendado!”
+                </p>
+              </div>
+            </div>
+          </article>
+          <!-- Card Reseña de Usuario 2 -->
+          <article
+            class="col-12 col-md-6 col-lg-4 d-flex justify-content-center"
+          >
+            <div class="card text-bg-light mb-3 text-center">
+              <div class="card-header">
+                <img
+                  src="./img/Reseñas/akapellah-reseña.png"
+                  alt="Logo Usuario 2"
+                  class="rounded-circle img-logo-reseña"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Akapellah</h5>
+                <p class="card-text lead">
+                  "Esta página tiene la esencia de la cultura urbana. Las
+                  prendas son modernas, con diseños únicos y una calidad que
+                  resalta. Me encanta cómo cada pieza refleja una actitud audaz
+                  y auténtica. ¡Un lugar imprescindible para el verdadero estilo
+                  urbano!"
+                </p>
+              </div>
+            </div>
+          </article>
+          <!-- Card Reseña de Usuario 3 -->
+          <article
+            class="col-12 col-md-6 col-lg-4 d-flex justify-content-center"
+          >
+            <div class="card text-bg-light mb-3 text-center">
+              <div class="card-header">
+                <img
+                  src="./img/Reseñas/homero-reseña.png"
+                  alt="Logo Usuario 3"
+                  class="rounded-circle img-logo-reseña"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Homero</h5>
+                <p class="card-text lead">
+                  "Me encanta cómo esta página refleja el verdadero espíritu
+                  urbano. Las prendas tienen ese toque único y atrevido. Cada
+                  diseño es puro estilo, calidad y actitud. Perfecto para
+                  quienes buscan algo auténtico y con mucha personalidad.
+                  ¡Totalmente recomendado!"
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- Footer realizado por Alessandra Borges -->
+    <footer class="bg-dark text-light mt-5 py-4">
       <section class="container">
         <div class="row">
-          <div class="col-12 col-md-4 col-lg-4 footer-logo text-center">
-            <a href="./index.html" class="nombre-Logo"><img src="./img/logo-vectorizado-urban-ind-blanco.svg" class="logo-Urban-Foot img-fluid" alt="Logo"></a>
+          <div class="col-12 col-lg-4 col-md-4 text-center footer-logo">
+            <a href="./index.html" class="nombre-Logo"
+              ><img
+                src="./img/logo-vectorizado-urban-ind-blanco.svg"
+                class="img-fluid logo-Urban-Foot"
+                alt="Logo"
+            /></a>
           </div>
-  
-          <div class="col-12 col-md-4 col-lg-4 mt-2 text-center">
+
+          <div class="col-12 col-lg-4 col-md-4 text-center mt-2">
             <h5>Redes Sociales</h5>
             <ul class="list-unstyled">
-              <li><a href="#" class="text-light"><i class="bi bi-facebook"></i> Facebook</a></li>
-              <li><a href="#" class="text-light"><i class="bi bi-twitter"></i> Twitter</a></li>
-              <li><a href="#" class="text-light"><i class="bi bi-instagram"></i> Instagram</a></li>
+              <li>
+                <a href="#" class="text-light"
+                  ><i class="bi bi-facebook"></i> Facebook</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light"
+                  ><i class="bi bi-twitter"></i> Twitter</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light"
+                  ><i class="bi bi-instagram"></i> Instagram</a
+                >
+              </li>
             </ul>
           </div>
-  
-          <div class="col-12 col-md-4 col-lg-4 mt-2 text-center">
+
+          <div class="col-12 col-lg-4 col-md-4 text-center mt-2">
             <h5>Información</h5>
             <ul class="list-unstyled">
-              <li><a href="./pages/error404.html" class="text-light">Política de privacidad</a></li>
-              <li><a href="./pages/nosotros.html" class="text-light">¿Quiénes somos?</a></li>
-              <li><a href="./pages/contactos.html" class="text-light">Contacto</a></li>
+              <li>
+                <a href="./pages/error404.html" class="text-light"
+                  >Política de privacidad</a
+                >
+              </li>
+              <li>
+                <a href="./pages/nosotros.html" class="text-light"
+                  >¿Quiénes somos?</a
+                >
+              </li>
+              <li>
+                <a href="./pages/contactos.html" class="text-light">Contacto</a>
+              </li>
             </ul>
           </div>
         </div>
-        <div><p class="d-flex justify-content-center align-items-center mt-4">&copy;Todos los derechos reservados</p></div>
+        <div>
+          <p class="d-flex align-items-center justify-content-center mt-4">
+            &copy;Todos los derechos reservados
+          </p>
+        </div>
       </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
+
