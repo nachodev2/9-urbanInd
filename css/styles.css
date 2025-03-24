@@ -257,5 +257,25 @@ main{
 
 .img-logo-reseña {
   border-radius: 50%;
-  max-width: 20vh;
+  max-width: 20vh;}
+.borderNone{
+  border-radius: 0;
+}
+
+.cards-indumentaria {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards-imagen-indumentaria{
+  transition: transform 0.3s ease;
+}
+
+.cards-indumentaria:hover{
+  transform: scale(0.95);
+}
+
+.cards-indumentaria:hover .cards-imagen-indumentaria{
+  transform: scale(1.1); 
 }
