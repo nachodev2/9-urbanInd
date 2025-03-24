@@ -357,3 +357,31 @@ main{
       top: 20px;
   }
 }
+ 
+@media (min-width:768px) and (max-width:991px) {
+  .fs-imgbannerbuzos{
+      min-height: 350px;
+  }
+}
+
+.borderNone{
+  border-radius: 0;
+}
+
+.cards-indumentaria {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards-imagen-indumentaria{
+  transition: transform 0.3s ease;
+}
+
+.cards-indumentaria:hover{
+  transform: scale(0.95);
+}
+
+.cards-indumentaria:hover .cards-imagen-indumentaria{
+  transform: scale(1.1); 
+}
