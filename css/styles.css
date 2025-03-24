@@ -118,14 +118,6 @@ main{
   }
 }
 
-@media (min-width:991px) {
-  .fs-imgbannerbuzos{
-      min-height: 450px;
-      max-height: 650px;
-      width: 100%;
-  }
-}
-
 .borderNone{
   border-radius: 0;
 }
