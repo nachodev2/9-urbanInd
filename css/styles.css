@@ -266,8 +266,8 @@ main{
   max-width: 20vh;
 }
 
-
-
+.borderNone{
+  border-radius: 0;}
 
 .page_404 {
   padding: 40px 0;
