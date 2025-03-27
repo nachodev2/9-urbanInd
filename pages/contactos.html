@@ -37,10 +37,10 @@
                 <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Login</a>
+                <button class="nav-link" data-bs-toggle="modal" data-bs-target="#modalIniciarSesion">Login</button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Registrarse</a>
+                <a class="nav-link" aria-current="page" href="./registro.html">Registrarse</a>
               </li>
             </ul>
           </div>
@@ -50,13 +50,51 @@
           </div>
         </div>
       </nav>
+      <!-- Modal Iniciar Sesion -->
+<div class="modal fade" id="modalIniciarSesion" tabindex="-1" aria-labelledby="iniciarSesionLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="modalLabel">Iniciar Sesión</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="inputCorreo" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="inputCorreo" aria-describedby="emailHelp" required>
+            
+          </div>
+          <div class="mb-3">
+            <label for="inputContrasenia" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputContrasenia" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="inputCheck">
+            <label class="form-check-label" for="inputCheck">Mantener abierta mi cuenta</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button class="btn btn-primary"><a href="#" class="text-decoration-none text-light">Olvidé mi Contraseña</a></button>
+        </form>
+        <div class="mt-4">
+          <h5>Iniciar Sesión con:</h5>
+           <div>
+            <button class="btn"><a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/></button>
+            <button class="btn"><a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"/></button>
+           </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
     </header>
     <main>
-        <section><h1 class="text-center">Contáctanos</h1></section>
-        <section class="container bg-dark text-light py-4">
+        <section><h1 class="text-center bg-dark text-light text-decoration-none">Contáctanos</h1></section>
+        <section class="container text-light py-4 bg-contactos">
             <div class="row">
                 <article class="col-12 col-lg-6 my-3">
-                    <form>
+                    <form class="form-contactos">
                         <div class="mb-3">
                             <label for="inputNombre" class="form-label">Nombre y Apellido</label>
                             <input type="text" class="form-control" id="inputNombre" minlength="4" maxlength="50" required>
@@ -75,7 +113,7 @@
                             <textarea class="form-control" id="inputConsultas" minlength="4" maxlength="500" rows="3" required></textarea>
                           </div>
                        
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
                       </form>
                 </article>
                 <article class="col-12 col-lg-6 my-3 ">
