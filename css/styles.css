@@ -386,3 +386,18 @@ main{
 .cards-indumentaria:hover .cards-imagen-indumentaria{
   transform: scale(1.1); 
 }
+
+.retrato-img1 {
+  position: relative;
+}
+
+.retrato-img1:hover img {
+  opacity: 0; 
+}
+
+.retrato-img1:hover {
+  background-image: url(../img/retratos/fotoMusul.jpg);
+  background-size: cover;
+  transition: 0.1s ease-in-out;
+  border-radius: 50%;
+}
