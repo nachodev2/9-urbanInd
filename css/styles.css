@@ -447,20 +447,37 @@ select {
     border: 2px solid black;
   }
 
-.retrato-img1 {
-  position: relative;
-}
+  .retrato-img1,
+  .retrato-img2,
+  .retrato-img3 {
+    position: relative;
+  }
+  
+  .retrato-img1:hover img,
+  .retrato-img2:hover img,
+  .retrato-img3:hover img {
+    opacity: 0;
+  }
+  
+  .retrato-img1:hover,
+  .retrato-img2:hover,
+  .retrato-img3:hover {
+    background-size: cover;
+    transition: 0.1s ease-in-out;
+    border-radius: 50%;
+  }
+  
+  .retrato-img1:hover {
+    background-image: url(../img/retratos/fotoMusul.jpg);
+  }
 
-.retrato-img1:hover img {
-  opacity: 0; 
-}
-
-.retrato-img1:hover {
-  background-image: url(../img/retratos/fotoMusul.jpg);
-  background-size: cover;
-  transition: 0.1s ease-in-out;
-  border-radius: 50%;
-}
+  .retrato-img2:hover {
+    background-image: url(../img/retratos/fotoTomas.jpg);
+   }
+  
+  .retrato-img3:hover {
+    background-image: url(../img/retratos/fotoAlessandra.jpg);
+  }
 
 .position-relative {
   position: relative;
