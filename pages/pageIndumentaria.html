@@ -38,7 +38,7 @@
                 <a class="nav-link" href="./nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Login</a>
+                <button class="nav-link" data-bs-toggle="modal" data-bs-target="#modalIniciarSesion">Login</button>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./registro.html">Registrarse</a>
@@ -49,6 +49,44 @@
             <a href="./error404.html" class="text-secondary"><i class="bi bi-search"></i></a>
             <a href="./carroCompras.html" class="text-secondary ms-3"><i class="bi bi-bag"></i></a>
           </div>
+          <!-- Modal Iniciar Sesion -->
+<div class="modal fade" id="modalIniciarSesion" tabindex="-1" aria-labelledby="iniciarSesionLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="modalLabel">Iniciar Sesión</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="inputCorreo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="inputCorreo" aria-describedby="emailHelp" required>
+              
+            </div>
+            <div class="mb-3">
+              <label for="inputContrasenia" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputContrasenia" required>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="inputCheck">
+              <label class="form-check-label" for="inputCheck">Mantener abierta mi cuenta</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button class="btn btn-primary"><a href="#" class="text-decoration-none text-light">Olvidé mi Contraseña</a></button>
+          </form>
+          <div class="mt-4">
+            <h5>Iniciar Sesión con:</h5>
+             <div>
+              <button class="btn"><a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"></a></button>
+              <button class="btn"><a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"></a></button>
+             </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
         </div>
       </nav>
     </header>
