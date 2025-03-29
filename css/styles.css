@@ -462,3 +462,24 @@ select {
   border-radius: 50%;
 }
 
+.position-relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.texto-arriba {
+  position: absolute;
+  top: 10px; 
+  left: 20px; 
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bold;
+  z-index: 1; 
+}
+
+@media (max-width: 768px) {
+  .texto-arriba {
+    font-size: 1.5rem;
+  }
+}
