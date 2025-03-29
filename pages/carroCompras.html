@@ -33,80 +33,117 @@
   <body>
     <!-- Header realizado por Alessandra Borges -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container">
-            <a class="navbar-brand nombre-Logo" href="./index.html"
-              ><img
-                src="../img/logo-vectorizado-urban-ind.svg"
-                class="img-fluid logo-Urban-Nav"
-                alt="Logo"
-              />Urban Ind</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                <li class="dropdown nav-item">
-                  <a
-                    class="dropdown-toggle nav-link"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Productos</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="./pages/productos.html"
-                        >Buzos</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="./pages/productos.html"
-                        >Remeras</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="./pages/productos.html"
-                        >Accesorios</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/contactos.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Registrarse</a>
-                </li>
-              </ul>
-            </div>
-            <div class="ms-2 search-and-cart-icons">
-              <a href="./pages/error404.html" class="text-secondary"
-                ><i class="bi bi-search"></i
-              ></a>
-              <a href="./pages/carroCompras.html" class="text-secondary ms-3"
-                ><i class="bi bi-bag"></i
-              ></a>
-            </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand nombre-Logo" href="../index.html"
+            ><img
+              src="./img/logo-vectorizado-urban-ind.svg"
+              class="img-fluid logo-Urban-Nav"
+              alt="Logo"
+            />Urban Ind</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="dropdown nav-item">
+                <a
+                  class="dropdown-toggle nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./pageIndumentaria.html"
+                      >Indumentaria</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pageAccesorios.html"
+                      >Accesorios</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pageSneakers.html"
+                      >Sneakers</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactos.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="modal" data-bs-target="#modalIniciarSesion">Login</button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./registro.html">Registrarse</a>
+              </li>
+            </ul>
           </div>
-        </nav>
+          <div class="ms-2 search-and-cart-icons">
+            <a href="./error404.html" class="text-secondary"
+              ><i class="bi bi-search"></i
+            ></a>
+            <a href="./carroCompras.html" class="text-secondary ms-3"
+              ><i class="bi bi-bag"></i
+            ></a>
+          </div>
+          <!-- Modal Iniciar Sesion -->
+<div class="modal fade" id="modalIniciarSesion" tabindex="-1" aria-labelledby="iniciarSesionLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="modalLabel">Iniciar Sesión</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="inputCorreo" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="inputCorreo" aria-describedby="emailHelp" required>
+            
+          </div>
+          <div class="mb-3">
+            <label for="inputContrasenia" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputContrasenia" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="inputCheck">
+            <label class="form-check-label" for="inputCheck">Mantener abierta mi cuenta</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button class="btn btn-primary"><a href="#" class="text-decoration-none text-light">Olvidé mi Contraseña</a></button>
+        </form>
+        <div class="mt-4">
+          <h5>Iniciar Sesión con:</h5>
+           <div>
+            <button class="btn"><a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/></a></button>
+            <button class="btn"><a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"/></a></button>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </nav>
     </header>
     <main class="container mt-3 mb-5">
         <div class="row">
@@ -129,7 +166,7 @@
                         <button type="button" class="btn-close position-absolute top-0 end-0 m-2" aria-label="Close"></button>
                         <div class="row g-0 align-items-center">
                             <div class="col-4 text-center">
-                                <img src="../img/img carrito compras/tiger white shirt.png" class="img-fluid w-100" alt="Producto">
+                                <img src="../img/img carrito compras/tiger white shirt.png" class="img-fluid w-100" alt="Producto Remera">
                             </div>
                             <div class="col-8">
                                 <div class="card-body p-2">
@@ -148,7 +185,7 @@
                         <button type="button" class="btn-close position-absolute top-0 end-0 m-2" aria-label="Close"></button>
                         <div class="row g-0 align-items-center">
                             <div class="col-4 text-center">
-                                <img src="../img/img carrito compras/astronauta black hoodie.png" class="img-fluid w-100" alt="Producto">
+                                <img src="../img/img carrito compras/astronauta black hoodie.png" class="img-fluid w-100" alt="Producto Hoodie">
                             </div>
                             <div class="col-8">
                                 <div class="card-body p-2">
@@ -167,7 +204,7 @@
                         <button type="button" class="btn-close position-absolute top-0 end-0 m-2" aria-label="Close"></button>
                         <div class="row g-0 align-items-center">
                             <div class="col-4 text-center">
-                                <img src="../img/img carrito compras/Nike Air Force 1 Mockup, Floating.png" class="img-fluid w-100" alt="Producto">
+                                <img src="../img/img carrito compras/Nike Air Force 1 Mockup, Floating.png" class="img-fluid w-100" alt="Producto Sneakers">
                             </div>
                             <div class="col-8">
                                 <div class="card-body p-2">
@@ -186,7 +223,7 @@
                         <button type="button" class="btn-close position-absolute top-0 end-0 m-2" aria-label="Close"></button>
                         <div class="row g-0 align-items-center">
                             <div class="col-4 text-center">
-                                <img src="../img/img carrito compras/lobo hoodie black.png" class="img-fluid w-100" alt="Producto">
+                                <img src="../img/img carrito compras/lobo hoodie black.png" class="img-fluid w-100" alt="Producto Hoodie">
                             </div>
                             <div class="col-8">
                                 <div class="card-body p-2">
@@ -199,10 +236,8 @@
                             </div>
                         </div>
                     </div>
-    
                 </div>
             </section>
-    
             <!-- Sección del resumen de compra -->
             <section class="col-12 col-lg-4 order-lg-last">
                 <div class="checkout-summary bg-light p-4 position-sticky top-0">
@@ -238,7 +273,7 @@
         <section class="container">
           <div class="row">
             <div class="col-12 col-lg-4 col-md-4 text-center footer-logo">
-              <a href="./index.html" class="nombre-Logo"
+              <a href="../index.html" class="nombre-Logo"
                 ><img
                   src="../img/logo-vectorizado-urban-ind-blanco.svg"
                   class="img-fluid logo-Urban-Foot"
@@ -269,17 +304,17 @@
               <h5>Información</h5>
               <ul class="list-unstyled">
                 <li>
-                  <a href="./pages/error404.html" class="text-light"
+                  <a href="./error404.html" class="text-light"
                     >Política de privacidad</a
                   >
                 </li>
                 <li>
-                  <a href="./pages/nosotros.html" class="text-light"
+                  <a href="./nosotros.html" class="text-light"
                     >¿Quiénes somos?</a
                   >
                 </li>
                 <li>
-                  <a href="./pages/contactos.html" class="text-light">Contacto</a>
+                  <a href="./contactos.html" class="text-light">Contacto</a>
                 </li>
               </ul>
             </div>
